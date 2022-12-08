@@ -10,7 +10,9 @@
 
 3. Read this on how to properly run the code with whatsapp qr ([How to Run Whatsapp Bot](https://wwebjs.dev/guide/#qr-code-generation))
 
-2. Execute the command
+4. Install `google-chrome-stable`
+
+5. Execute the command
 
 ```bash
 # install dependencies

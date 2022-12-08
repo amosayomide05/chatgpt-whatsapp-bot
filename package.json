@@ -1,7 +1,7 @@
 {
-  "name": "Yui Bot",
-  "version": "1.0.4",
-  "description": "A Whatsapp Bot using NodeJS",
+  "name": "ChatGPT and Whatsapp bot",
+  "version": "1.0.0",
+  "description": "ChatGPT and Whatsapp bot, based on Node.js by amosayomide05",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "Amos Ayomide (amosayomide05)",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "puppeteer": "latest",
     "qrcode-terminal": "latest",
