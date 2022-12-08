@@ -36,6 +36,6 @@ MIT © Amos Ayomide (amosayomide05)
 
 
 
-<p align="center">
-<img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2Famosayomide05%2Fyui&s=80&c=00ff00&bg=00000000&no=5&ff=digi" alt="visits">
+<p align="center"><br>
+<img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2Famosayomide05%2Fchatgpt-whatsapp-bot&s=80&c=00ff00&bg=00000000&no=5&ff=digi" alt="visits">
 </p>
