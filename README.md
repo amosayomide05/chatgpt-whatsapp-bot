@@ -1,5 +1,5 @@
 # ChatGPT and Whatsapp bot, based on Node.js
-
+![screenshot](ss.jpg)
 ## How to deploy
 
 ### Locally
