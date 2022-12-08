@@ -15,7 +15,8 @@
   "dependencies": {
     "puppeteer": "latest",
     "qrcode-terminal": "latest",
-    "whatsapp-web.js": "latest"
+    "whatsapp-web.js": "latest",
+    "chatgpt": "latest"
   },
   "homepage": "https://github.com/amosayomide05/chatgpt-whatsapp-bot",
   
