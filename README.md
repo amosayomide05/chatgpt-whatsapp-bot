@@ -22,6 +22,14 @@ pnpm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 # Then scan the QrCode and Enjoy!
 ```
 
+## Using Github Actions
+1. `Fork` this repo.<br>
+2. Go to Github Action. <br>
+3. Click I understand my workflow.<br>
+4. <a href="https://gist.github.com/amosayomide05/cd043c135ee74b7024964496b552f7c1"> Read this gist to see how to run. </a><br><br>
+
+
+
 ## License
 
 MIT © Amos Ayomide (amosayomide05)
