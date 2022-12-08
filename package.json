@@ -1,0 +1,29 @@
+{
+  "name": "Yui Bot",
+  "version": "1.0.4",
+  "description": "A Whatsapp Bot using NodeJS",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Amos Ayomide (amosayomide05)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "puppeteer": "latest",
+    "qrcode-terminal": "latest",
+    "whatsapp-web.js": "latest"
+  },
+  "homepage": "https://github.com/amosayomide05/Yu-bot",
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amosayomide05/Yu-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amosayomide05/Yu-bot/issues"
+  }
+}
