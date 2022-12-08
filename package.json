@@ -17,13 +17,13 @@
     "qrcode-terminal": "latest",
     "whatsapp-web.js": "latest"
   },
-  "homepage": "https://github.com/amosayomide05/Yu-bot",
+  "homepage": "https://github.com/amosayomide05/chatgpt-whatsapp-bot",
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amosayomide05/Yu-bot.git"
+    "url": "git+https://github.com/amosayomide05/chatgpt-whatsapp-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/amosayomide05/Yu-bot/issues"
+    "url": "https://github.com/amosayomide05/chatgpt-whatsapp-bot/issues"
   }
 }
