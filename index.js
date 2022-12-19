@@ -19,21 +19,29 @@ client.on("ready", () => {
   console.log("Bot is ready!");
 });
 
+const { ChatGPTAPI, getOpenAIAuth } = import('chatgpt');
+
+const openAIAuth = await getOpenAIAuth({
+      email: ,
+      password:  
+});
+const api = new ChatGPTAPI({ ...openAIAuth });
+
+(async () => {
+try{
+      await api.initSession();
+    }
+    catch(error){
+      console.error("ChatGPT Auth Failed: " + error.message);
+    }
+})();
 
 const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
 
 client.on("message", (message) => {
 
   (async () => {
-    const { ChatGPTAPI } = await import('chatgpt');
-
-    const api = new ChatGPTAPI({
-      sessionToken: process.env.SESSION_TOKEN,
-      markdown: false
-    });
-
-    await api.ensureAuth();
-    const response = await api.sendMessage(message);
+    var response = await api.sendMessage(message);
     await sleep(5000);
     message.reply(response);
   })();
