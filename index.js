@@ -20,7 +20,7 @@ client.on("ready", () => {
 });
 
 const { ChatGPTAPI, getOpenAIAuth } = import('chatgpt');
-
+(async () => {
 const openAIAuth = await getOpenAIAuth({
       email: ,
       password:  
@@ -29,14 +29,12 @@ const api = new ChatGPTAPI({ ...openAIAuth });
 
 
 try{
-  (async () => {
       await api.initSession();
-      })();
     }
     catch(error){
       console.error("ChatGPT Auth Failed: " + error.message);
     }
-
+})();
 
 const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
 
