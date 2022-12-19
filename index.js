@@ -19,8 +19,9 @@ client.on("ready", () => {
   console.log("Bot is ready!");
 });
 
-const { ChatGPTAPI, getOpenAIAuth } = import('chatgpt');
+
 (async () => {
+  const { ChatGPTAPI, getOpenAIAuth } = await import('chatgpt');
 const openAIAuth = await getOpenAIAuth({
       email: ,
       password:  
