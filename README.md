@@ -18,7 +18,7 @@
 # install dependencies
 npm i 
 # Start the bot service
-pnpm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 # Then scan the QrCode and Enjoy!
 ```
 
