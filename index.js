@@ -21,24 +21,27 @@ client.on("ready", () => {
 });
 
 
-(async () => {
-  const api = new ChatGPTAPIBrowser({
-    email: emaiL, //Your Password
-    password: password //Your Email
-  })
-
-  await api.initSession()
-
 
 const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
 
-client.on("message", (message) => {
+client.on("message", async (message) => {
+  var m_link = "https://api.amosayomide05.cf/gpt/?question=" + msg_old + "&string_id=" + msg_from;
+      request(m_link, options, (error, res, body) => {
 
-  (async () => {
-    var response = await api.sendMessage(message);
-    await sleep(5000);
-    message.reply(response);
-  })();
+                if (!error && res.statusCode == 200) {
+                    
+                    
+                    var response = body.response;
+
+                        let responseStr = response.trim();
+                    ctx.reply(responseStr);
+
+                   
+                    
+                }
+                else{
+                    ctx.reply("Chatgpt is down on my server");
+                }
+            });
 
 });
-  })();
