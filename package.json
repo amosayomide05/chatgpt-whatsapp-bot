@@ -1,7 +1,7 @@
 {
   "name": "ChatGPT and Whatsapp bot",
+  "description": "A simple chatbot that uses a free ChatGPT reverse proxy api and Whatsapp",
   "version": "1.0.0",
-  "description": "ChatGPT and Whatsapp bot, based on Node.js by amosayomide05",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -9,17 +9,29 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "chatbot",
+    "chatgpt",
+    "chatgpt-bot",
+    "chatbot-gpt",
+    "chatgpt-whatsapp-bot",
+    "gpt",
+    "whatsapp",
+    "whatsapp-bot",
+    "chatgpt-whatsapp-bot",
+    "chatbot-whatsapp-bot",
+    "chatgpt-whatsapp",
+    "chatbot-whatsapp",
+    "amosayomide05"
+  ],
   "author": "Amos Ayomide (amosayomide05)",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "latest",
     "qrcode-terminal": "latest",
     "whatsapp-web.js": "latest",
-    "chatgpt": "latest"
+    "axios": "latest"
   },
   "homepage": "https://github.com/amosayomide05/chatgpt-whatsapp-bot",
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amosayomide05/chatgpt-whatsapp-bot.git"
